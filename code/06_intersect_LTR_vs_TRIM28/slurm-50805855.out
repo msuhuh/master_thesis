@@ -1,0 +1,91 @@
+R_packages/4.3.1: Note that loading some spatial analysis packages, especially geo-related packages, might
+R_packages/4.3.1: require you to load additional modules prior to use. monocle3 is such a package. See
+R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+R_packages/4.3.1: The RStudio packages pane is disabled when loading this module, due to RStudio slowdowns
+R_packages/4.3.1: because there are >20000 available packages. *All packages are still available.*  For 
+R_packages/4.3.1: more information and instructions to re-enable the packages pane (not recommended) see
+R_packages/4.3.1: 'module help R_packages/4.3.1'
+
+Loading required package: stats4
+Loading required package: BiocGenerics
+
+Attaching package: ‘BiocGenerics’
+
+The following objects are masked from ‘package:stats’:
+
+    IQR, mad, sd, var, xtabs
+
+The following objects are masked from ‘package:base’:
+
+    anyDuplicated, aperm, append, as.data.frame, basename, cbind,
+    colnames, dirname, do.call, duplicated, eval, evalq, Filter, Find,
+    get, grep, grepl, intersect, is.unsorted, lapply, Map, mapply,
+    match, mget, order, paste, pmax, pmax.int, pmin, pmin.int,
+    Position, rank, rbind, Reduce, rownames, sapply, setdiff, sort,
+    table, tapply, union, unique, unsplit, which.max, which.min
+
+Loading required package: S4Vectors
+
+Attaching package: ‘S4Vectors’
+
+The following object is masked from ‘package:utils’:
+
+    findMatches
+
+The following objects are masked from ‘package:base’:
+
+    expand.grid, I, unname
+
+Loading required package: IRanges
+Loading required package: GenomeInfoDb
+GRanges object with 6 ranges and 2 metadata columns:
+      seqnames      ranges strand |          type  max_cons
+         <Rle>   <IRanges>  <Rle> |   <character> <numeric>
+  [1]     chr1 21949-22075      * | LTR/ERVL-MaLR     2.898
+  [2]     chr1 30694-30848      * | LTR/ERVL-MaLR     2.275
+  [3]     chr1 30953-31131      * | LTR/ERVL-MaLR     2.264
+  [4]     chr1 34565-34921      * | LTR/ERVL-MaLR     2.449
+  [5]     chr1 38256-39464      * | LTR/ERVL-MaLR        NA
+  [6]     chr1 39465-39623      * | LTR/ERVL-MaLR     4.096
+  -------
+  seqinfo: 347 sequences from an unspecified genome; no seqlengths
+GRanges object with 6 ranges and 1 metadata column:
+      seqnames        ranges strand |  max_cons
+         <Rle>     <IRanges>  <Rle> | <numeric>
+  [1]     chr1 181306-181530      * |        NA
+  [2]     chr1 778666-779100      * |     7.955
+  [3]     chr1 827028-827494      * |        NA
+  [4]     chr1 904452-904825      * |     2.951
+  [5]     chr1 905197-905687      * |        NA
+  [6]     chr1 919349-919592      * |     4.115
+  -------
+  seqinfo: 71 sequences from an unspecified genome; no seqlengths
+GRanges object with 1 range and 2 metadata columns:
+      seqnames          ranges strand |        type  max_cons
+         <Rle>       <IRanges>  <Rle> | <character> <numeric>
+  [1]     chr1 1017170-1018876      * |    LTR/ERV1        NA
+  -------
+  seqinfo: 70 sequences from an unspecified genome; no seqlengths
+GRanges object with 1 range and 1 metadata column:
+      seqnames          ranges strand |  max_cons
+         <Rle>       <IRanges>  <Rle> | <numeric>
+  [1]     chr1 1016896-1017302      * |        NA
+  -------
+  seqinfo: 70 sequences from an unspecified genome; no seqlengths
+GRanges object with 10968 ranges and 1 metadata column:
+          seqnames              ranges strand |  max_cons
+             <Rle>           <IRanges>  <Rle> | <numeric>
+      [1]     chr1     1016896-1017302      * |        NA
+      [2]     chr1     1018209-1019193      * |        NA
+      [3]     chr1     1106580-1106954      * |        NA
+      [4]     chr1     1113689-1113891      * |        NA
+      [5]     chr1     1357588-1357879      * |        NA
+      ...      ...                 ...    ... .       ...
+  [10964]     chrX 153049665-153049906      * |        NA
+  [10965]     chrX 153358728-153358963      * |        NA
+  [10966]     chrX 153564328-153564515      * |     5.221
+  [10967]     chrX 155440908-155441258      * |        NA
+  [10968]     chrX 155440908-155441258      * |        NA
+  -------
+  seqinfo: 70 sequences from an unspecified genome; no seqlengths

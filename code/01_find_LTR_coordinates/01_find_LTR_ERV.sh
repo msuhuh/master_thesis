@@ -13,7 +13,7 @@ module load python3
 
 
 # SET VARIABLES
-in_path="/proj/snic2020-16-24/private/users/minna/master_thesis/data/RepeatMasker_data/hg38.fa.out"
+in_path="/proj/snic2020-16-24/private/users/minna/master_thesis/data/repeatmasker_data/hg38.fa.out"
 in_file="${in_path##*/}"
 out_path="/proj/snic2020-16-24/private/users/minna/master_thesis/analyses/01_LTR_coordinates/${in_file:: -7}_LTR_coordinates.bed"
 
