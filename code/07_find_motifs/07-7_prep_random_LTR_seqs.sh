@@ -35,8 +35,7 @@ Rscript $conversion_script $LTR_vs_phyloP_GR $LTR_vs_phyloP_bed
 
 
 # RESIZE LTR REGIONS TO MATCH REAL REGIONS
-paste <(cut -f1,2 $LTR_vs_phylop_bed) <(awk '{print $1}' $lengths_file) | \
-    awk '{OFS="\t"; print $1, $2, $2 + $3}' > ${resized_LTR_vs_phylop_bed}
+paste <(cut -f1,2 $LTR_vs_phylop_bed) <(awk '{print $1}' $lengths_file) | awk '{OFS="\t"; print $1, $2, $2 + $3}' > ${resized_LTR_vs_phylop_bed}
 
 
 # CREATE RANDOM REGIONS FILE IN BED FORMAT FROM LTR_vs_phyloP
